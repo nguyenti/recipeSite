@@ -1,0 +1,77 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.title {
+	position: relative;
+}
+
+.dualCol {
+	columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.comment {
+	background-color: #bbb;
+	padding: 1em;
+	width: 100%;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.newComment {
+	padding: 1em;
+	width: 100%;
+	margin: 10px;
+}
+
+label.field {
+	text-align: right;
+	width: 15%;
+	float: left;
+}
+
+.rating {
+	width: 30%;
+}
+
+.textbox {
+	width: 65%;
+}
+
+.recipe {
+	background-color: #888;
+	margin: 10px;
+	width: 350px;
+	max-width: 95%;
+	height: 420px;
+	padding: 1.5em;
+	position: relative;
+	float: left;
+	left: 1.5em;
+	right: 1.5em;
+	display: table;
+}
+
+.recipe .inlink {
+	display:block;
+	height: 100%;
+	width: 100%;
+	text-decoration:none;
+	vertical-align: middle;
+    display: table-cell;
+    color: black;
+}
+
+.errors {
+	color: #D8000C;
+	background-color: #FFBABA;
+	padding: 1em;
+}
+
+span.errors input {
+    border: 1px solid red;
+}
